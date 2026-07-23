@@ -1,0 +1,50 @@
+:root {
+  --page: #f8fafc;
+  --surface: #ffffff;
+  --ink: #172026;
+  --muted: #64717c;
+  --line: #d9e0e6;
+  --line-strong: #b8c4ce;
+  --mark: #f2d35f;
+
+  font: 16px/1.45 system-ui, 'Segoe UI', Roboto, sans-serif;
+  letter-spacing: 0;
+  color: var(--ink);
+  background: var(--page);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 26px;
+  line-height: 1.1;
+  font-weight: 780;
+}
+
+h2 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+p {
+  margin: 0;
+}
