@@ -16,6 +16,8 @@ dist-ssr
 downloads
 cards
 *.pdf
+.tmp
+tmp
 
 # Editor directories and files
 .vscode/*

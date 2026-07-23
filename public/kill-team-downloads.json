@@ -1,0 +1,3411 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-23T23:03:50.993Z",
+  "sourceUrl": "https://www.warhammer-community.com/en-gb/downloads/kill-team/",
+  "sourceApi": "https://www.warhammer-community.com/api/search/downloads/",
+  "language": "english",
+  "teams": [
+    {
+      "id": "angels-of-death",
+      "title": "Angels of Death",
+      "slug": "angels-of-death",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_angels_of_death-g1xsdrmgpd-t1j6hagnfi.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_angels_of_death-g1xsdrmgpd-t1j6hagnfi.pdf",
+      "fileSize": "13.68 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_angels_of_death-g1xsdrmgpd-t1j6hagnfi.pdf|13.68 MB"
+    },
+    {
+      "id": "battleclade",
+      "title": "Battleclade",
+      "slug": "battleclade",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_battleclade-hdnhljvvjh-qv26vge1tg.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_battleclade-hdnhljvvjh-qv26vge1tg.pdf",
+      "fileSize": "10.67 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2025-06-25",
+      "createdAtLabel": "25/06/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_battleclade-hdnhljvvjh-qv26vge1tg.pdf|10.67 MB"
+    },
+    {
+      "id": "blades-of-khaine",
+      "title": "Blades of Khaine",
+      "slug": "blades-of-khaine",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_killl_team_team_rules_blades_of_khaine-p7jsqt6jno-y4kh2lus1f.pdf",
+      "fileName": "eng_29-04_killl_team_team_rules_blades_of_khaine-p7jsqt6jno-y4kh2lus1f.pdf",
+      "fileSize": "7.25 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_killl_team_team_rules_blades_of_khaine-p7jsqt6jno-y4kh2lus1f.pdf|7.25 MB"
+    },
+    {
+      "id": "blooded",
+      "title": "Blooded",
+      "slug": "blooded",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_blooded-djvqgciu6s-zvnlalulmo.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_blooded-djvqgciu6s-zvnlalulmo.pdf",
+      "fileSize": "8.79 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_blooded-djvqgciu6s-zvnlalulmo.pdf|8.79 MB"
+    },
+    {
+      "id": "brood-brothers",
+      "title": "Brood Brothers",
+      "slug": "brood-brothers",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_25-02_kt_teamrules_brood_brothers-y0wysbc1ju-t33yxawoi9.pdf",
+      "fileName": "eng_25-02_kt_teamrules_brood_brothers-y0wysbc1ju-t33yxawoi9.pdf",
+      "fileSize": "7.90 MB",
+      "lastUpdated": "2026-02-25",
+      "lastUpdatedLabel": "25/02/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "25/02/2026|eng_25-02_kt_teamrules_brood_brothers-y0wysbc1ju-t33yxawoi9.pdf|7.90 MB"
+    },
+    {
+      "id": "canoptek-circle",
+      "title": "Canoptek Circle",
+      "slug": "canoptek-circle",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_canoptek_circle-bizfljpjib-cb15prhbqo.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_canoptek_circle-bizfljpjib-cb15prhbqo.pdf",
+      "fileSize": "12.71 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2025-09-10",
+      "createdAtLabel": "10/09/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_canoptek_circle-bizfljpjib-cb15prhbqo.pdf|12.71 MB"
+    },
+    {
+      "id": "celestian-insidiants",
+      "title": "Celestian Insidiants",
+      "slug": "celestian-insidiants",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_celestian_insidiants-2hrigphif5-w8adwvsqeq.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_celestian_insidiants-2hrigphif5-w8adwvsqeq.pdf",
+      "fileSize": "9.17 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2026-01-28",
+      "createdAtLabel": "28/01/2026",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Adepta Sororitas",
+          "slug": "adepta-sororitas"
+        },
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_celestian_insidiants-2hrigphif5-w8adwvsqeq.pdf|9.17 MB"
+    },
+    {
+      "id": "chaos-cult",
+      "title": "Chaos Cult",
+      "slug": "chaos-cult",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_chaos_cult-x4tsrknbaq-lc1rwd37iy.pdf",
+      "fileName": "eng_17-12_kill_team_team_rules_chaos_cult-x4tsrknbaq-lc1rwd37iy.pdf",
+      "fileSize": "12.81 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kill_team_team_rules_chaos_cult-x4tsrknbaq-lc1rwd37iy.pdf|12.81 MB"
+    },
+    {
+      "id": "corsair-voidscarred",
+      "title": "Corsair Voidscarred",
+      "slug": "corsair-voidscarred",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_corsair_voidscarred-3war9i1i61-vjohvdpcb9.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_corsair_voidscarred-3war9i1i61-vjohvdpcb9.pdf",
+      "fileSize": "17.47 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_corsair_voidscarred-3war9i1i61-vjohvdpcb9.pdf|17.47 MB"
+    },
+    {
+      "id": "death-korps",
+      "title": "Death Korps",
+      "slug": "death-korps",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_death_korps-t7f9rdqq5a-uzoyjhayvf.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_death_korps-t7f9rdqq5a-uzoyjhayvf.pdf",
+      "fileSize": "8.85 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_death_korps-t7f9rdqq5a-uzoyjhayvf.pdf|8.85 MB"
+    },
+    {
+      "id": "deathwatch",
+      "title": "Deathwatch",
+      "slug": "deathwatch",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_deathwatch-wngg7m6abd-uc8ksrsq97.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_deathwatch-wngg7m6abd-uc8ksrsq97.pdf",
+      "fileSize": "16.55 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2025-09-10",
+      "createdAtLabel": "10/09/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Deathwatch",
+          "slug": "deathwatch"
+        },
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_deathwatch-wngg7m6abd-uc8ksrsq97.pdf|16.55 MB"
+    },
+    {
+      "id": "elucidian-starstriders",
+      "title": "Elucidian Starstriders",
+      "slug": "elucidian-starstriders",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_elucidian_starstriders-4c0hnv9gz9-4fuvbi96ce.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_elucidian_starstriders-4c0hnv9gz9-4fuvbi96ce.pdf",
+      "fileSize": "8.35 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_elucidian_starstriders-4c0hnv9gz9-4fuvbi96ce.pdf|8.35 MB"
+    },
+    {
+      "id": "exaction-squad",
+      "title": "Exaction Squad",
+      "slug": "exaction-squad",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_exaction_squad_online_rules-w6tqairoed-qhpndqu8fq.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_exaction_squad_online_rules-w6tqairoed-qhpndqu8fq.pdf",
+      "fileSize": "7.46 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_exaction_squad_online_rules-w6tqairoed-qhpndqu8fq.pdf|7.46 MB"
+    },
+    {
+      "id": "exodite-dragon-masters",
+      "title": "Exodite Dragon Masters",
+      "slug": "exodite-dragon-masters",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_22-07_kill_team_team_rules_exodite_dragon_masters-bfqzdncjqz-ijdqo65ctu.pdf",
+      "fileName": "eng_22-07_kill_team_team_rules_exodite_dragon_masters-bfqzdncjqz-ijdqo65ctu.pdf",
+      "fileSize": "10.32 MB",
+      "lastUpdated": "2026-07-22",
+      "lastUpdatedLabel": "22/07/2026",
+      "createdAt": "2026-07-22",
+      "createdAtLabel": "22/07/2026",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "22/07/2026|eng_22-07_kill_team_team_rules_exodite_dragon_masters-bfqzdncjqz-ijdqo65ctu.pdf|10.32 MB"
+    },
+    {
+      "id": "farstalker-kinband",
+      "title": "Farstalker Kinband",
+      "slug": "farstalker-kinband",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_22-07_kill_team_team_rules_farstalker_kinband-d5j2c72vs0-mulu2ghc6b.pdf",
+      "fileName": "eng_22-07_kill_team_team_rules_farstalker_kinband-d5j2c72vs0-mulu2ghc6b.pdf",
+      "fileSize": "7.40 MB",
+      "lastUpdated": "2026-07-22",
+      "lastUpdatedLabel": "22/07/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "22/07/2026|eng_22-07_kill_team_team_rules_farstalker_kinband-d5j2c72vs0-mulu2ghc6b.pdf|7.40 MB"
+    },
+    {
+      "id": "fellgor-ravagers",
+      "title": "Fellgor Ravagers",
+      "slug": "fellgor-ravagers",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_fellgor_ravagers-ssbqiaazxu-15qwa6wxxn.pdf",
+      "fileName": "eng_17-12_kill_team_team_rules_fellgor_ravagers-ssbqiaazxu-15qwa6wxxn.pdf",
+      "fileSize": "12.94 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kill_team_team_rules_fellgor_ravagers-ssbqiaazxu-15qwa6wxxn.pdf|12.94 MB"
+    },
+    {
+      "id": "gellerpox-infected",
+      "title": "Gellerpox Infected",
+      "slug": "gellerpox-infected",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_gellerpox_infected-sqrxy2hexz-wnoxt5c43h.pdf",
+      "fileName": "eng_17-12_kill_team_team_rules_gellerpox_infected-sqrxy2hexz-wnoxt5c43h.pdf",
+      "fileSize": "16.04 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kill_team_team_rules_gellerpox_infected-sqrxy2hexz-wnoxt5c43h.pdf|16.04 MB"
+    },
+    {
+      "id": "goremongers",
+      "title": "Goremongers",
+      "slug": "goremongers",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_goremongers-7rfudvovux-ld6jeolws2.pdf",
+      "fileName": "eng_17-12_kill_team_team_rules_goremongers-7rfudvovux-ld6jeolws2.pdf",
+      "fileSize": "16.07 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2025-04-02",
+      "createdAtLabel": "02/04/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kill_team_team_rules_goremongers-7rfudvovux-ld6jeolws2.pdf|16.07 MB"
+    },
+    {
+      "id": "hand-of-the-archon",
+      "title": "Hand of the Archon",
+      "slug": "hand-of-the-archon",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_hand_of_the_archon-ijq4ui6dxc-qnz6k5jaxl.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_hand_of_the_archon-ijq4ui6dxc-qnz6k5jaxl.pdf",
+      "fileSize": "14.06 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_hand_of_the_archon-ijq4ui6dxc-qnz6k5jaxl.pdf|14.06 MB"
+    },
+    {
+      "id": "hearthkyn-salvagers",
+      "title": "Hearthkyn Salvagers",
+      "slug": "hearthkyn-salvagers",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_hearthkyn_salvagers-7ih6r2u7u4-sof3ovjopi.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_hearthkyn_salvagers-7ih6r2u7u4-sof3ovjopi.pdf",
+      "fileSize": "8.26 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_hearthkyn_salvagers-7ih6r2u7u4-sof3ovjopi.pdf|8.26 MB"
+    },
+    {
+      "id": "hernkyn-yaegris",
+      "title": "Hernkyn Yaegirs",
+      "slug": "hernkyn-yaegris",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kt_hernkyn_yaegirs_online_rules-cdk7wwjwo8-1mxatl4eok.pdf",
+      "fileName": "eng_17-12_kt_hernkyn_yaegirs_online_rules-cdk7wwjwo8-1mxatl4eok.pdf",
+      "fileSize": "12.74 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kt_hernkyn_yaegirs_online_rules-cdk7wwjwo8-1mxatl4eok.pdf|12.74 MB"
+    },
+    {
+      "id": "hierotek-circle",
+      "title": "Hierotek Circle",
+      "slug": "hierotek-circle",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_hierotek_circle-o4ojjsfngr-t8uuy32lcb.pdf",
+      "fileName": "eng_29-04_kt_teamrules_hierotek_circle-o4ojjsfngr-t8uuy32lcb.pdf",
+      "fileSize": "13.08 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_hierotek_circle-o4ojjsfngr-t8uuy32lcb.pdf|13.08 MB"
+    },
+    {
+      "id": "hunter-clade",
+      "title": "Hunter Clade",
+      "slug": "hunter-clade",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_hunter_clade-iw4pezoqcm-axjoncdqci.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_hunter_clade-iw4pezoqcm-axjoncdqci.pdf",
+      "fileSize": "18.26 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_hunter_clade-iw4pezoqcm-axjoncdqci.pdf|18.26 MB"
+    },
+    {
+      "id": "imperial-navy-breachers",
+      "title": "Imperial Navy Breachers",
+      "slug": "imperial-navy-breachers",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_imperial_navy_breachers-rjrzfyyser-nk3cjyrrbd.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_imperial_navy_breachers-rjrzfyyser-nk3cjyrrbd.pdf",
+      "fileSize": "15.72 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_imperial_navy_breachers-rjrzfyyser-nk3cjyrrbd.pdf|15.72 MB"
+    },
+    {
+      "id": "inquisitorial-agents",
+      "title": "Inquisitorial Agents",
+      "slug": "inquisitorial-agents",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_inquisitorial_agents_online_rules-fptr16sizq-dnjndug2ax.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_inquisitorial_agents_online_rules-fptr16sizq-dnjndug2ax.pdf",
+      "fileSize": "8.35 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_inquisitorial_agents_online_rules-fptr16sizq-dnjndug2ax.pdf|8.35 MB"
+    },
+    {
+      "id": "kasrkin",
+      "title": "Kasrkin",
+      "slug": "kasrkin",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_kasrkin-9s2gsy4iq7-hexyjwjqrx.pdf",
+      "fileName": "eng_29-04_kt_teamrules_kasrkin-9s2gsy4iq7-hexyjwjqrx.pdf",
+      "fileSize": "8.40 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_kasrkin-9s2gsy4iq7-hexyjwjqrx.pdf|8.40 MB"
+    },
+    {
+      "id": "kommandos",
+      "title": "Kommandos",
+      "slug": "kommandos",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_kommandos_online_rules-ova8v1kjds-ds3ouz4k04.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_kommandos_online_rules-ova8v1kjds-ds3ouz4k04.pdf",
+      "fileSize": "7.45 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_kommandos_online_rules-ova8v1kjds-ds3ouz4k04.pdf|7.45 MB"
+    },
+    {
+      "id": "legionaries",
+      "title": "Legionaries",
+      "slug": "legionaries",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kt_legionaries_online_rules-wdpu85w6pv-8ndq4m5egw.pdf",
+      "fileName": "eng_17-12_kt_legionaries_online_rules-wdpu85w6pv-8ndq4m5egw.pdf",
+      "fileSize": "15.03 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kt_legionaries_online_rules-wdpu85w6pv-8ndq4m5egw.pdf|15.03 MB"
+    },
+    {
+      "id": "mandrakes",
+      "title": "Mandrakes",
+      "slug": "mandrakes",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_mandrakes-w2j9qwhaxz-oveknnlmoe.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_mandrakes-w2j9qwhaxz-oveknnlmoe.pdf",
+      "fileSize": "14.79 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_mandrakes-w2j9qwhaxz-oveknnlmoe.pdf|14.79 MB"
+    },
+    {
+      "id": "murderwing",
+      "title": "Murderwing",
+      "slug": "murderwing",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_murderwing_online_rules-7uaakrg3yp-aeteefwypm.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_murderwing_online_rules-7uaakrg3yp-aeteefwypm.pdf",
+      "fileSize": "11.66 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2026-01-28",
+      "createdAtLabel": "28/01/2026",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Chaos Space Marines",
+          "slug": "chaos-space-marines"
+        },
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_murderwing_online_rules-7uaakrg3yp-aeteefwypm.pdf|11.66 MB"
+    },
+    {
+      "id": "nemesis-claw",
+      "title": "Nemesis Claw",
+      "slug": "nemesis-claw",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_nemesis_claw_online_rules-oyryxud2oc-jylng5bujl.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_nemesis_claw_online_rules-oyryxud2oc-jylng5bujl.pdf",
+      "fileSize": "8.40 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_nemesis_claw_online_rules-oyryxud2oc-jylng5bujl.pdf|8.40 MB"
+    },
+    {
+      "id": "novitiates",
+      "title": "Novitiates",
+      "slug": "novitiates",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_novitiates-kpn2dh2ljk-kkaiyhpput.pdf",
+      "fileName": "eng_29-04_kt_teamrules_novitiates-kpn2dh2ljk-kkaiyhpput.pdf",
+      "fileSize": "8.16 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_novitiates-kpn2dh2ljk-kkaiyhpput.pdf|8.16 MB"
+    },
+    {
+      "id": "pathfinders",
+      "title": "Pathfinders",
+      "slug": "pathfinders",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_pathfinders-vpiombenfv-fobu7lopgx.pdf",
+      "fileName": "eng_28-01_kt_teamrules_pathfinders-vpiombenfv-fobu7lopgx.pdf",
+      "fileSize": "14.99 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kt_teamrules_pathfinders-vpiombenfv-fobu7lopgx.pdf|14.99 MB"
+    },
+    {
+      "id": "phobos-strike-team",
+      "title": "Phobos Strike Team",
+      "slug": "phobos-strike-team",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kt_phobos_strike_team_online_rules-6mf867flcl-2xdbnfouex.pdf",
+      "fileName": "eng_17-12_kt_phobos_strike_team_online_rules-6mf867flcl-2xdbnfouex.pdf",
+      "fileSize": "15.37 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kt_phobos_strike_team_online_rules-6mf867flcl-2xdbnfouex.pdf|15.37 MB"
+    },
+    {
+      "id": "plague-marines",
+      "title": "Plague Marines",
+      "slug": "plague-marines",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_plague_marines-liggy6zl51-fa8nryqey9.pdf",
+      "fileName": "eng_29-04_kt_teamrules_plague_marines-liggy6zl51-fa8nryqey9.pdf",
+      "fileSize": "10.68 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-06",
+      "createdAtLabel": "06/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Chaos Space Marines",
+          "slug": "chaos-space-marines"
+        },
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_plague_marines-liggy6zl51-fa8nryqey9.pdf|10.68 MB"
+    },
+    {
+      "id": "ratlings",
+      "title": "Ratlings",
+      "slug": "ratlings",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_ratlings-ulbqsnxhjb-jmv6tjlrsi.pdf",
+      "fileName": "eng_29-04_kt_teamrules_ratlings-ulbqsnxhjb-jmv6tjlrsi.pdf",
+      "fileSize": "10.07 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-12-18",
+      "createdAtLabel": "18/12/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Astra Militarum",
+          "slug": "astra-militarum"
+        },
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_ratlings-ulbqsnxhjb-jmv6tjlrsi.pdf|10.07 MB"
+    },
+    {
+      "id": "raveners",
+      "title": "Raveners",
+      "slug": "raveners",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kt_raveners_online_rules-essk6jkv2r-uoltqtiunq.pdf",
+      "fileName": "eng_17-12_kt_raveners_online_rules-essk6jkv2r-uoltqtiunq.pdf",
+      "fileSize": "16.35 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2025-06-25",
+      "createdAtLabel": "25/06/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kt_raveners_online_rules-essk6jkv2r-uoltqtiunq.pdf|16.35 MB"
+    },
+    {
+      "id": "sanctifiers",
+      "title": "Sanctifiers",
+      "slug": "sanctifiers",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_25-02_kt_teamrules_sanctifiers-3vpsecfbfe-vclbyfaed7.pdf",
+      "fileName": "eng_25-02_kt_teamrules_sanctifiers-3vpsecfbfe-vclbyfaed7.pdf",
+      "fileSize": "4.07 MB",
+      "lastUpdated": "2026-02-25",
+      "lastUpdatedLabel": "25/02/2026",
+      "createdAt": "2025-04-02",
+      "createdAtLabel": "02/04/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "25/02/2026|eng_25-02_kt_teamrules_sanctifiers-3vpsecfbfe-vclbyfaed7.pdf|4.07 MB"
+    },
+    {
+      "id": "scout-squad",
+      "title": "Scout Squad",
+      "slug": "scout-squad",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_scout_squad-gsh9kmjzgi-cx2xtxmp8b.pdf",
+      "fileName": "eng_29-04_kt_teamrules_scout_squad-gsh9kmjzgi-cx2xtxmp8b.pdf",
+      "fileSize": "8.85 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_scout_squad-gsh9kmjzgi-cx2xtxmp8b.pdf|8.85 MB"
+    },
+    {
+      "id": "spectre-squad",
+      "title": "Spectre Squad",
+      "slug": "spectre-squad",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_spectre_squad_online_rules-fmam5py97r-crpssgvbua.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_spectre_squad_online_rules-fmam5py97r-crpssgvbua.pdf",
+      "fileSize": "8.54 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2026-05-06",
+      "createdAtLabel": "06/05/2026",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_spectre_squad_online_rules-fmam5py97r-crpssgvbua.pdf|8.54 MB"
+    },
+    {
+      "id": "tempestus-aquilons",
+      "title": "Tempestus Aquilons",
+      "slug": "tempestus-aquilons",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_tempestus_aquilons_online_rules-hjdu56qvok-yku0cuphaj.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_tempestus_aquilons_online_rules-hjdu56qvok-yku0cuphaj.pdf",
+      "fileSize": "11.26 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_tempestus_aquilons_online_rules-hjdu56qvok-yku0cuphaj.pdf|11.26 MB"
+    },
+    {
+      "id": "vespid-stingwings",
+      "title": "Vespid Stingwings",
+      "slug": "vespid-stingwings",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_vespid_stingwings_online_rules-ivlsu9qyii-6ecf1h69ml.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_vespid_stingwings_online_rules-ivlsu9qyii-6ecf1h69ml.pdf",
+      "fileSize": "11.35 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_vespid_stingwings_online_rules-ivlsu9qyii-6ecf1h69ml.pdf|11.35 MB"
+    },
+    {
+      "id": "void-dancer-troupe",
+      "title": "Void-Dancer Troupe",
+      "slug": "void-dancer-troupe",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_void-dancer_troupe_online_rules-ee8qymqvq4-w24lgiuhhz.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_void-dancer_troupe_online_rules-ee8qymqvq4-w24lgiuhhz.pdf",
+      "fileSize": "6.20 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_void-dancer_troupe_online_rules-ee8qymqvq4-w24lgiuhhz.pdf|6.20 MB"
+    },
+    {
+      "id": "warpcoven",
+      "title": "Warpcoven",
+      "slug": "warpcoven",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_warpcoven-dlvflmyfdc-tqfq81iy7v.pdf",
+      "fileName": "eng_29-04_kt_teamrules_warpcoven-dlvflmyfdc-tqfq81iy7v.pdf",
+      "fileSize": "10.54 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_warpcoven-dlvflmyfdc-tqfq81iy7v.pdf|10.54 MB"
+    },
+    {
+      "id": "wolf-scouts",
+      "title": "Wolf Scouts",
+      "slug": "wolf-scouts",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_wolf_scout-98qutcyf0n-a3v14lxt0s.pdf",
+      "fileName": "eng_29-04_kt_teamrules_wolf_scout-98qutcyf0n-a3v14lxt0s.pdf",
+      "fileSize": "10.10 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2025-11-19",
+      "createdAtLabel": "19/11/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_wolf_scout-98qutcyf0n-a3v14lxt0s.pdf|10.10 MB"
+    },
+    {
+      "id": "wrecka-krew",
+      "title": "Wrecka Krew",
+      "slug": "wrecka-krew",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_wrecka_krew_online_rules-1o31d0dshf-1p2z1ugswl.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_wrecka_krew_online_rules-1o31d0dshf-1p2z1ugswl.pdf",
+      "fileSize": "9.18 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-12-18",
+      "createdAtLabel": "18/12/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        },
+        {
+          "title": "Orks",
+          "slug": "orks"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_wrecka_krew_online_rules-1o31d0dshf-1p2z1ugswl.pdf|9.18 MB"
+    },
+    {
+      "id": "wyrmblade",
+      "title": "Wyrmblade",
+      "slug": "wyrmblade",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_killteam_wyrmblade_online_rules-nzx8yswdj0-9lcmzodiqo.pdf",
+      "fileName": "eng_17-12_killteam_wyrmblade_online_rules-nzx8yswdj0-9lcmzodiqo.pdf",
+      "fileSize": "12.53 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_killteam_wyrmblade_online_rules-nzx8yswdj0-9lcmzodiqo.pdf|12.53 MB"
+    },
+    {
+      "id": "xv26-stealth-battlesuits",
+      "title": "XV26 Stealth Battlesuits",
+      "slug": "xv26-stealth-battlesuits",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_xv26_stealth_battlesuits_online_rules-ee27yjjgg3-mpri6mnolp.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_xv26_stealth_battlesuits_online_rules-ee27yjjgg3-mpri6mnolp.pdf",
+      "fileSize": "9.23 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2025-11-19",
+      "createdAtLabel": "19/11/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_xv26_stealth_battlesuits_online_rules-ee27yjjgg3-mpri6mnolp.pdf|9.23 MB"
+    }
+  ],
+  "downloads": [
+    {
+      "id": "ambull-mission-pack",
+      "title": "Ambull Mission Pack",
+      "slug": "ambull-mission-pack",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_ambull_mission_pack-fxyqry76tu-hy0r3phikw.pdf",
+      "fileName": "eng_ambull_mission_pack-fxyqry76tu-hy0r3phikw.pdf",
+      "fileSize": "7.68 MB",
+      "lastUpdated": "2026-05-06",
+      "lastUpdatedLabel": "06/05/2026",
+      "createdAt": "2026-05-06",
+      "createdAtLabel": "06/05/2026",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "06/05/2026|eng_ambull_mission_pack-fxyqry76tu-hy0r3phikw.pdf|7.68 MB"
+    },
+    {
+      "id": "angels-of-death",
+      "title": "Angels of Death",
+      "slug": "angels-of-death",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_angels_of_death-g1xsdrmgpd-t1j6hagnfi.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_angels_of_death-g1xsdrmgpd-t1j6hagnfi.pdf",
+      "fileSize": "13.68 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_angels_of_death-g1xsdrmgpd-t1j6hagnfi.pdf|13.68 MB"
+    },
+    {
+      "id": "approved-ops-2024-tournament-companion",
+      "title": "Approved Ops 2025 Tournament Companion",
+      "slug": "approved-ops-2024-tournament-companion",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_06-05_kt_approved_ops_2025_tournament_companion-9yxtdulpgd-ktlq8bvdto.pdf",
+      "fileName": "eng_06-05_kt_approved_ops_2025_tournament_companion-9yxtdulpgd-ktlq8bvdto.pdf",
+      "fileSize": "8.11 MB",
+      "lastUpdated": "2026-05-06",
+      "lastUpdatedLabel": "06/05/2026",
+      "createdAt": "2025-06-03",
+      "createdAtLabel": "03/06/2025",
+      "categories": [
+        {
+          "title": "Key Downloads",
+          "slug": "key-downloads"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "06/05/2026|eng_06-05_kt_approved_ops_2025_tournament_companion-9yxtdulpgd-ktlq8bvdto.pdf|8.11 MB"
+    },
+    {
+      "id": "approved-ops-update-log",
+      "title": "Approved Ops: Update Log",
+      "slug": "approved-ops-update-log",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_key_downloads_approved_ops_update_log-ojpqmwjxda-z4rtrjne3n.pdf",
+      "fileName": "eng_29-04_kill_team_key_downloads_approved_ops_update_log-ojpqmwjxda-z4rtrjne3n.pdf",
+      "fileSize": "1.33 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2025-09-10",
+      "createdAtLabel": "10/09/2025",
+      "categories": [
+        {
+          "title": "Key Downloads",
+          "slug": "key-downloads"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_key_downloads_approved_ops_update_log-ojpqmwjxda-z4rtrjne3n.pdf|1.33 MB"
+    },
+    {
+      "id": "battleclade",
+      "title": "Battleclade",
+      "slug": "battleclade",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_battleclade-hdnhljvvjh-qv26vge1tg.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_battleclade-hdnhljvvjh-qv26vge1tg.pdf",
+      "fileSize": "10.67 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2025-06-25",
+      "createdAtLabel": "25/06/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_battleclade-hdnhljvvjh-qv26vge1tg.pdf|10.67 MB"
+    },
+    {
+      "id": "blades-of-khaine",
+      "title": "Blades of Khaine",
+      "slug": "blades-of-khaine",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_killl_team_team_rules_blades_of_khaine-p7jsqt6jno-y4kh2lus1f.pdf",
+      "fileName": "eng_29-04_killl_team_team_rules_blades_of_khaine-p7jsqt6jno-y4kh2lus1f.pdf",
+      "fileSize": "7.25 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_killl_team_team_rules_blades_of_khaine-p7jsqt6jno-y4kh2lus1f.pdf|7.25 MB"
+    },
+    {
+      "id": "blood-and-zeal-mission-pack",
+      "title": "Blood and Zeal Mission Pack",
+      "slug": "blood-and-zeal-mission-pack",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_25-06_kill_team_blood_and_zeal_mission_pack-mbwbeocxvq-acdl2frmxf.pdf",
+      "fileName": "eng_25-06_kill_team_blood_and_zeal_mission_pack-mbwbeocxvq-acdl2frmxf.pdf",
+      "fileSize": "3.56 MB",
+      "lastUpdated": "2025-06-25",
+      "lastUpdatedLabel": "25/06/2025",
+      "createdAt": "2025-06-25",
+      "createdAtLabel": "25/06/2025",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "25/06/2025|eng_25-06_kill_team_blood_and_zeal_mission_pack-mbwbeocxvq-acdl2frmxf.pdf|3.56 MB"
+    },
+    {
+      "id": "blooded",
+      "title": "Blooded",
+      "slug": "blooded",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_blooded-djvqgciu6s-zvnlalulmo.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_blooded-djvqgciu6s-zvnlalulmo.pdf",
+      "fileSize": "8.79 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_blooded-djvqgciu6s-zvnlalulmo.pdf|8.79 MB"
+    },
+    {
+      "id": "brood-brothers",
+      "title": "Brood Brothers",
+      "slug": "brood-brothers",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_25-02_kt_teamrules_brood_brothers-y0wysbc1ju-t33yxawoi9.pdf",
+      "fileName": "eng_25-02_kt_teamrules_brood_brothers-y0wysbc1ju-t33yxawoi9.pdf",
+      "fileSize": "7.90 MB",
+      "lastUpdated": "2026-02-25",
+      "lastUpdatedLabel": "25/02/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "25/02/2026|eng_25-02_kt_teamrules_brood_brothers-y0wysbc1ju-t33yxawoi9.pdf|7.90 MB"
+    },
+    {
+      "id": "canoptek-circle",
+      "title": "Canoptek Circle",
+      "slug": "canoptek-circle",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_canoptek_circle-bizfljpjib-cb15prhbqo.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_canoptek_circle-bizfljpjib-cb15prhbqo.pdf",
+      "fileSize": "12.71 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2025-09-10",
+      "createdAtLabel": "10/09/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_canoptek_circle-bizfljpjib-cb15prhbqo.pdf|12.71 MB"
+    },
+    {
+      "id": "celestian-insidiants",
+      "title": "Celestian Insidiants",
+      "slug": "celestian-insidiants",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_celestian_insidiants-2hrigphif5-w8adwvsqeq.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_celestian_insidiants-2hrigphif5-w8adwvsqeq.pdf",
+      "fileSize": "9.17 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2026-01-28",
+      "createdAtLabel": "28/01/2026",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Adepta Sororitas",
+          "slug": "adepta-sororitas"
+        },
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_celestian_insidiants-2hrigphif5-w8adwvsqeq.pdf|9.17 MB"
+    },
+    {
+      "id": "chaos-cult",
+      "title": "Chaos Cult",
+      "slug": "chaos-cult",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_chaos_cult-x4tsrknbaq-lc1rwd37iy.pdf",
+      "fileName": "eng_17-12_kill_team_team_rules_chaos_cult-x4tsrknbaq-lc1rwd37iy.pdf",
+      "fileSize": "12.81 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kill_team_team_rules_chaos_cult-x4tsrknbaq-lc1rwd37iy.pdf|12.81 MB"
+    },
+    {
+      "id": "warcom-core-rules",
+      "title": "Core Rules: Update Log",
+      "slug": "warcom-core-rules",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_key_downloads_core_rules_update_log-9dzdz0ewle-wutcyhpgzf.pdf",
+      "fileName": "eng_17-06_kill_team_key_downloads_core_rules_update_log-9dzdz0ewle-wutcyhpgzf.pdf",
+      "fileSize": "1.91 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-12-18",
+      "createdAtLabel": "18/12/2024",
+      "categories": [
+        {
+          "title": "Key Downloads",
+          "slug": "key-downloads"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_key_downloads_core_rules_update_log-9dzdz0ewle-wutcyhpgzf.pdf|1.91 MB"
+    },
+    {
+      "id": "corsair-voidscarred",
+      "title": "Corsair Voidscarred",
+      "slug": "corsair-voidscarred",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_corsair_voidscarred-3war9i1i61-vjohvdpcb9.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_corsair_voidscarred-3war9i1i61-vjohvdpcb9.pdf",
+      "fileSize": "17.47 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_corsair_voidscarred-3war9i1i61-vjohvdpcb9.pdf|17.47 MB"
+    },
+    {
+      "id": "ctesiphus-expedition",
+      "title": "Ctesiphus Expedition",
+      "slug": "ctesiphus-expedition",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_ctesiphus_expedition-4gmks2si6k-rne9inhkqe.pdf",
+      "fileName": "eng_17-12_kill_team_team_rules_ctesiphus_expedition-4gmks2si6k-rne9inhkqe.pdf",
+      "fileSize": "31.75 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2025-12-17",
+      "createdAtLabel": "17/12/2025",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kill_team_team_rules_ctesiphus_expedition-4gmks2si6k-rne9inhkqe.pdf|31.75 MB"
+    },
+    {
+      "id": "sniper-rules",
+      "title": "Deadly Sniper Mission Pack",
+      "slug": "sniper-rules",
+      "pdfUrl": "https://assets.warhammer-community.com/kt_sniper_rules_eng_20-puwbum7ej6-n24dgcrcdd.pdf",
+      "fileName": "kt_sniper_rules_eng_20-puwbum7ej6-n24dgcrcdd.pdf",
+      "fileSize": "4.54 MB",
+      "lastUpdated": "2024-11-20",
+      "lastUpdatedLabel": "20/11/2024",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "20/11/2024|kt_sniper_rules_eng_20-puwbum7ej6-n24dgcrcdd.pdf|4.54 MB"
+    },
+    {
+      "id": "death-korps",
+      "title": "Death Korps",
+      "slug": "death-korps",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_death_korps-t7f9rdqq5a-uzoyjhayvf.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_death_korps-t7f9rdqq5a-uzoyjhayvf.pdf",
+      "fileSize": "8.85 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_death_korps-t7f9rdqq5a-uzoyjhayvf.pdf|8.85 MB"
+    },
+    {
+      "id": "deathwatch",
+      "title": "Deathwatch",
+      "slug": "deathwatch",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_deathwatch-wngg7m6abd-uc8ksrsq97.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_deathwatch-wngg7m6abd-uc8ksrsq97.pdf",
+      "fileSize": "16.55 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2025-09-10",
+      "createdAtLabel": "10/09/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Deathwatch",
+          "slug": "deathwatch"
+        },
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_deathwatch-wngg7m6abd-uc8ksrsq97.pdf|16.55 MB"
+    },
+    {
+      "id": "elucidian-starstriders",
+      "title": "Elucidian Starstriders",
+      "slug": "elucidian-starstriders",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_elucidian_starstriders-4c0hnv9gz9-4fuvbi96ce.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_elucidian_starstriders-4c0hnv9gz9-4fuvbi96ce.pdf",
+      "fileSize": "8.35 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_elucidian_starstriders-4c0hnv9gz9-4fuvbi96ce.pdf|8.35 MB"
+    },
+    {
+      "id": "exaction-squad",
+      "title": "Exaction Squad",
+      "slug": "exaction-squad",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_exaction_squad_online_rules-w6tqairoed-qhpndqu8fq.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_exaction_squad_online_rules-w6tqairoed-qhpndqu8fq.pdf",
+      "fileSize": "7.46 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_exaction_squad_online_rules-w6tqairoed-qhpndqu8fq.pdf|7.46 MB"
+    },
+    {
+      "id": "exodite-architecture-terrain-templates",
+      "title": "Exodite Architecture Terrain Templates",
+      "slug": "exodite-architecture-terrain-templates",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_22-07_kill_team_key_downloads_exodite_architecture_terrain_templates-uyhsjpzv6w-tkm2bqogxz.pdf",
+      "fileName": "eng_22-07_kill_team_key_downloads_exodite_architecture_terrain_templates-uyhsjpzv6w-tkm2bqogxz.pdf",
+      "fileSize": "1.65 MB",
+      "lastUpdated": "2026-07-22",
+      "lastUpdatedLabel": "22/07/2026",
+      "createdAt": "2026-07-22",
+      "createdAtLabel": "22/07/2026",
+      "categories": [
+        {
+          "title": "Key Downloads",
+          "slug": "key-downloads"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "22/07/2026|eng_22-07_kill_team_key_downloads_exodite_architecture_terrain_templates-uyhsjpzv6w-tkm2bqogxz.pdf|1.65 MB"
+    },
+    {
+      "id": "exodite-dragon-masters",
+      "title": "Exodite Dragon Masters",
+      "slug": "exodite-dragon-masters",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_22-07_kill_team_team_rules_exodite_dragon_masters-bfqzdncjqz-ijdqo65ctu.pdf",
+      "fileName": "eng_22-07_kill_team_team_rules_exodite_dragon_masters-bfqzdncjqz-ijdqo65ctu.pdf",
+      "fileSize": "10.32 MB",
+      "lastUpdated": "2026-07-22",
+      "lastUpdatedLabel": "22/07/2026",
+      "createdAt": "2026-07-22",
+      "createdAtLabel": "22/07/2026",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "22/07/2026|eng_22-07_kill_team_team_rules_exodite_dragon_masters-bfqzdncjqz-ijdqo65ctu.pdf|10.32 MB"
+    },
+    {
+      "id": "farstalker-kinband",
+      "title": "Farstalker Kinband",
+      "slug": "farstalker-kinband",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_22-07_kill_team_team_rules_farstalker_kinband-d5j2c72vs0-mulu2ghc6b.pdf",
+      "fileName": "eng_22-07_kill_team_team_rules_farstalker_kinband-d5j2c72vs0-mulu2ghc6b.pdf",
+      "fileSize": "7.40 MB",
+      "lastUpdated": "2026-07-22",
+      "lastUpdatedLabel": "22/07/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "22/07/2026|eng_22-07_kill_team_team_rules_farstalker_kinband-d5j2c72vs0-mulu2ghc6b.pdf|7.40 MB"
+    },
+    {
+      "id": "fellgor-ravagers",
+      "title": "Fellgor Ravagers",
+      "slug": "fellgor-ravagers",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_fellgor_ravagers-ssbqiaazxu-15qwa6wxxn.pdf",
+      "fileName": "eng_17-12_kill_team_team_rules_fellgor_ravagers-ssbqiaazxu-15qwa6wxxn.pdf",
+      "fileSize": "12.94 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kill_team_team_rules_fellgor_ravagers-ssbqiaazxu-15qwa6wxxn.pdf|12.94 MB"
+    },
+    {
+      "id": "gellerpox-infected",
+      "title": "Gellerpox Infected",
+      "slug": "gellerpox-infected",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_gellerpox_infected-sqrxy2hexz-wnoxt5c43h.pdf",
+      "fileName": "eng_17-12_kill_team_team_rules_gellerpox_infected-sqrxy2hexz-wnoxt5c43h.pdf",
+      "fileSize": "16.04 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kill_team_team_rules_gellerpox_infected-sqrxy2hexz-wnoxt5c43h.pdf|16.04 MB"
+    },
+    {
+      "id": "goremongers",
+      "title": "Goremongers",
+      "slug": "goremongers",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_goremongers-7rfudvovux-ld6jeolws2.pdf",
+      "fileName": "eng_17-12_kill_team_team_rules_goremongers-7rfudvovux-ld6jeolws2.pdf",
+      "fileSize": "16.07 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2025-04-02",
+      "createdAtLabel": "02/04/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kill_team_team_rules_goremongers-7rfudvovux-ld6jeolws2.pdf|16.07 MB"
+    },
+    {
+      "id": "hand-of-the-archon",
+      "title": "Hand of the Archon",
+      "slug": "hand-of-the-archon",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_hand_of_the_archon-ijq4ui6dxc-qnz6k5jaxl.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_hand_of_the_archon-ijq4ui6dxc-qnz6k5jaxl.pdf",
+      "fileSize": "14.06 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_hand_of_the_archon-ijq4ui6dxc-qnz6k5jaxl.pdf|14.06 MB"
+    },
+    {
+      "id": "hearthkyn-salvagers",
+      "title": "Hearthkyn Salvagers",
+      "slug": "hearthkyn-salvagers",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_hearthkyn_salvagers-7ih6r2u7u4-sof3ovjopi.pdf",
+      "fileName": "eng_29-04_kill_team_team_rules_hearthkyn_salvagers-7ih6r2u7u4-sof3ovjopi.pdf",
+      "fileSize": "8.26 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kill_team_team_rules_hearthkyn_salvagers-7ih6r2u7u4-sof3ovjopi.pdf|8.26 MB"
+    },
+    {
+      "id": "hernkyn-yaegris",
+      "title": "Hernkyn Yaegirs",
+      "slug": "hernkyn-yaegris",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kt_hernkyn_yaegirs_online_rules-cdk7wwjwo8-1mxatl4eok.pdf",
+      "fileName": "eng_17-12_kt_hernkyn_yaegirs_online_rules-cdk7wwjwo8-1mxatl4eok.pdf",
+      "fileSize": "12.74 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kt_hernkyn_yaegirs_online_rules-cdk7wwjwo8-1mxatl4eok.pdf|12.74 MB"
+    },
+    {
+      "id": "hierotek-circle",
+      "title": "Hierotek Circle",
+      "slug": "hierotek-circle",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_hierotek_circle-o4ojjsfngr-t8uuy32lcb.pdf",
+      "fileName": "eng_29-04_kt_teamrules_hierotek_circle-o4ojjsfngr-t8uuy32lcb.pdf",
+      "fileSize": "13.08 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_hierotek_circle-o4ojjsfngr-t8uuy32lcb.pdf|13.08 MB"
+    },
+    {
+      "id": "hunter-clade",
+      "title": "Hunter Clade",
+      "slug": "hunter-clade",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_hunter_clade-iw4pezoqcm-axjoncdqci.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_hunter_clade-iw4pezoqcm-axjoncdqci.pdf",
+      "fileSize": "18.26 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_hunter_clade-iw4pezoqcm-axjoncdqci.pdf|18.26 MB"
+    },
+    {
+      "id": "imperial-navy-breachers",
+      "title": "Imperial Navy Breachers",
+      "slug": "imperial-navy-breachers",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_imperial_navy_breachers-rjrzfyyser-nk3cjyrrbd.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_imperial_navy_breachers-rjrzfyyser-nk3cjyrrbd.pdf",
+      "fileSize": "15.72 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_imperial_navy_breachers-rjrzfyyser-nk3cjyrrbd.pdf|15.72 MB"
+    },
+    {
+      "id": "inquisitorial-agents",
+      "title": "Inquisitorial Agents",
+      "slug": "inquisitorial-agents",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_inquisitorial_agents_online_rules-fptr16sizq-dnjndug2ax.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_inquisitorial_agents_online_rules-fptr16sizq-dnjndug2ax.pdf",
+      "fileSize": "8.35 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_inquisitorial_agents_online_rules-fptr16sizq-dnjndug2ax.pdf|8.35 MB"
+    },
+    {
+      "id": "joint-ops-shadowhunt-mission-pack",
+      "title": "Joint Ops: Shadowhunt Mission Pack",
+      "slug": "joint-ops-shadowhunt-mission-pack",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_25-02_kt_missionpacks_shadowhunt_mission_pack-rwuncqguq4-cchozr3air.pdf",
+      "fileName": "eng_25-02_kt_missionpacks_shadowhunt_mission_pack-rwuncqguq4-cchozr3air.pdf",
+      "fileSize": "30.39 MB",
+      "lastUpdated": "2026-02-25",
+      "lastUpdatedLabel": "25/02/2026",
+      "createdAt": "2026-02-25",
+      "createdAtLabel": "25/02/2026",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "25/02/2026|eng_25-02_kt_missionpacks_shadowhunt_mission_pack-rwuncqguq4-cchozr3air.pdf|30.39 MB"
+    },
+    {
+      "id": "joint-ops-terror-on-devlan",
+      "title": "Joint Ops: Terror on Devlan",
+      "slug": "joint-ops-terror-on-devlan",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_terror_on_devlan_mission_pack-xxesbxnr8b-lyb0mbmtbe.pdf",
+      "fileName": "eng_terror_on_devlan_mission_pack-xxesbxnr8b-lyb0mbmtbe.pdf",
+      "fileSize": "25.60 MB",
+      "lastUpdated": "2026-05-06",
+      "lastUpdatedLabel": "06/05/2026",
+      "createdAt": "2026-05-06",
+      "createdAtLabel": "06/05/2026",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "06/05/2026|eng_terror_on_devlan_mission_pack-xxesbxnr8b-lyb0mbmtbe.pdf|25.60 MB"
+    },
+    {
+      "id": "kasrkin",
+      "title": "Kasrkin",
+      "slug": "kasrkin",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_kasrkin-9s2gsy4iq7-hexyjwjqrx.pdf",
+      "fileName": "eng_29-04_kt_teamrules_kasrkin-9s2gsy4iq7-hexyjwjqrx.pdf",
+      "fileSize": "8.40 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_kasrkin-9s2gsy4iq7-hexyjwjqrx.pdf|8.40 MB"
+    },
+    {
+      "id": "kill-team-lite-rules",
+      "title": "Kill Team Lite Rules",
+      "slug": "kill-team-lite-rules",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_jul25_kt_lite_rules-jmjv4hdamy-qlsqxdf83p.pdf",
+      "fileName": "eng_jul25_kt_lite_rules-jmjv4hdamy-qlsqxdf83p.pdf",
+      "fileSize": "1.09 MB",
+      "lastUpdated": "2025-07-23",
+      "lastUpdatedLabel": "23/07/2025",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Key Downloads",
+          "slug": "key-downloads"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "23/07/2025|eng_jul25_kt_lite_rules-jmjv4hdamy-qlsqxdf83p.pdf|1.09 MB"
+    },
+    {
+      "id": "killzone-tomb-world",
+      "title": "Killzone Tomb World",
+      "slug": "killzone-tomb-world",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_mission_pack_killzone_tomb_world-jgm5ebvcoy-fu3lfpskgq.pdf",
+      "fileName": "eng_29-04_kt_mission_pack_killzone_tomb_world-jgm5ebvcoy-fu3lfpskgq.pdf",
+      "fileSize": "18.17 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2025-09-10",
+      "createdAtLabel": "10/09/2025",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_mission_pack_killzone_tomb_world-jgm5ebvcoy-fu3lfpskgq.pdf|18.17 MB"
+    },
+    {
+      "id": "killzone-tomb-world-update-log",
+      "title": "Killzone: Tomb World Update Log",
+      "slug": "killzone-tomb-world-update-log",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_mission_pack_killzone_tomb_world_update_log-1wyv5j3kyy-ljfonphopd.pdf",
+      "fileName": "eng_29-04_kt_mission_pack_killzone_tomb_world_update_log-1wyv5j3kyy-ljfonphopd.pdf",
+      "fileSize": "1.08 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2026-02-25",
+      "createdAtLabel": "25/02/2026",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_mission_pack_killzone_tomb_world_update_log-1wyv5j3kyy-ljfonphopd.pdf|1.08 MB"
+    },
+    {
+      "id": "kommandos",
+      "title": "Kommandos",
+      "slug": "kommandos",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_kommandos_online_rules-ova8v1kjds-ds3ouz4k04.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_kommandos_online_rules-ova8v1kjds-ds3ouz4k04.pdf",
+      "fileSize": "7.45 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_kommandos_online_rules-ova8v1kjds-ds3ouz4k04.pdf|7.45 MB"
+    },
+    {
+      "id": "legionaries",
+      "title": "Legionaries",
+      "slug": "legionaries",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kt_legionaries_online_rules-wdpu85w6pv-8ndq4m5egw.pdf",
+      "fileName": "eng_17-12_kt_legionaries_online_rules-wdpu85w6pv-8ndq4m5egw.pdf",
+      "fileSize": "15.03 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kt_legionaries_online_rules-wdpu85w6pv-8ndq4m5egw.pdf|15.03 MB"
+    },
+    {
+      "id": "lieutenant-titus-mission-pack",
+      "title": "Lieutenant Titus Mission Pack",
+      "slug": "lieutenant-titus-mission-pack",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_kt_lieutenant_titus_mission_pack_warcom-8pbo4zdtxy-s4n4cfrgz9.pdf",
+      "fileName": "eng_kt_lieutenant_titus_mission_pack_warcom-8pbo4zdtxy-s4n4cfrgz9.pdf",
+      "fileSize": "1.46 MB",
+      "lastUpdated": "2024-12-03",
+      "lastUpdatedLabel": "03/12/2024",
+      "createdAt": "2024-12-03",
+      "createdAtLabel": "03/12/2024",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "03/12/2024|eng_kt_lieutenant_titus_mission_pack_warcom-8pbo4zdtxy-s4n4cfrgz9.pdf|1.46 MB"
+    },
+    {
+      "id": "mandrakes",
+      "title": "Mandrakes",
+      "slug": "mandrakes",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_mandrakes-w2j9qwhaxz-oveknnlmoe.pdf",
+      "fileName": "eng_28-01_kill_team_team_rules_mandrakes-w2j9qwhaxz-oveknnlmoe.pdf",
+      "fileSize": "14.79 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kill_team_team_rules_mandrakes-w2j9qwhaxz-oveknnlmoe.pdf|14.79 MB"
+    },
+    {
+      "id": "mission-packs-update-log",
+      "title": "Mission Packs Update Log",
+      "slug": "mission-packs-update-log",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_19-11_kill_team_mission_packs_update_log-5dnaxd7emk-nge5vrbqja.pdf",
+      "fileName": "eng_19-11_kill_team_mission_packs_update_log-5dnaxd7emk-nge5vrbqja.pdf",
+      "fileSize": "1.03 MB",
+      "lastUpdated": "2025-11-19",
+      "lastUpdatedLabel": "19/11/2025",
+      "createdAt": "2025-08-27",
+      "createdAtLabel": "27/08/2025",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "19/11/2025|eng_19-11_kill_team_mission_packs_update_log-5dnaxd7emk-nge5vrbqja.pdf|1.03 MB"
+    },
+    {
+      "id": "murderwing",
+      "title": "Murderwing",
+      "slug": "murderwing",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_murderwing_online_rules-7uaakrg3yp-aeteefwypm.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_murderwing_online_rules-7uaakrg3yp-aeteefwypm.pdf",
+      "fileSize": "11.66 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2026-01-28",
+      "createdAtLabel": "28/01/2026",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Chaos Space Marines",
+          "slug": "chaos-space-marines"
+        },
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_murderwing_online_rules-7uaakrg3yp-aeteefwypm.pdf|11.66 MB"
+    },
+    {
+      "id": "nemesis-claw",
+      "title": "Nemesis Claw",
+      "slug": "nemesis-claw",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_nemesis_claw_online_rules-oyryxud2oc-jylng5bujl.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_nemesis_claw_online_rules-oyryxud2oc-jylng5bujl.pdf",
+      "fileSize": "8.40 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_nemesis_claw_online_rules-oyryxud2oc-jylng5bujl.pdf|8.40 MB"
+    },
+    {
+      "id": "novitiates",
+      "title": "Novitiates",
+      "slug": "novitiates",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_novitiates-kpn2dh2ljk-kkaiyhpput.pdf",
+      "fileName": "eng_29-04_kt_teamrules_novitiates-kpn2dh2ljk-kkaiyhpput.pdf",
+      "fileSize": "8.16 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_novitiates-kpn2dh2ljk-kkaiyhpput.pdf|8.16 MB"
+    },
+    {
+      "id": "pathfinders",
+      "title": "Pathfinders",
+      "slug": "pathfinders",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_pathfinders-vpiombenfv-fobu7lopgx.pdf",
+      "fileName": "eng_28-01_kt_teamrules_pathfinders-vpiombenfv-fobu7lopgx.pdf",
+      "fileSize": "14.99 MB",
+      "lastUpdated": "2026-01-28",
+      "lastUpdatedLabel": "28/01/2026",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "28/01/2026|eng_28-01_kt_teamrules_pathfinders-vpiombenfv-fobu7lopgx.pdf|14.99 MB"
+    },
+    {
+      "id": "phobos-strike-team",
+      "title": "Phobos Strike Team",
+      "slug": "phobos-strike-team",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kt_phobos_strike_team_online_rules-6mf867flcl-2xdbnfouex.pdf",
+      "fileName": "eng_17-12_kt_phobos_strike_team_online_rules-6mf867flcl-2xdbnfouex.pdf",
+      "fileSize": "15.37 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kt_phobos_strike_team_online_rules-6mf867flcl-2xdbnfouex.pdf|15.37 MB"
+    },
+    {
+      "id": "plague-marines",
+      "title": "Plague Marines",
+      "slug": "plague-marines",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_plague_marines-liggy6zl51-fa8nryqey9.pdf",
+      "fileName": "eng_29-04_kt_teamrules_plague_marines-liggy6zl51-fa8nryqey9.pdf",
+      "fileSize": "10.68 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-06",
+      "createdAtLabel": "06/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Chaos Space Marines",
+          "slug": "chaos-space-marines"
+        },
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_plague_marines-liggy6zl51-fa8nryqey9.pdf|10.68 MB"
+    },
+    {
+      "id": "ratlings",
+      "title": "Ratlings",
+      "slug": "ratlings",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_ratlings-ulbqsnxhjb-jmv6tjlrsi.pdf",
+      "fileName": "eng_29-04_kt_teamrules_ratlings-ulbqsnxhjb-jmv6tjlrsi.pdf",
+      "fileSize": "10.07 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-12-18",
+      "createdAtLabel": "18/12/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Astra Militarum",
+          "slug": "astra-militarum"
+        },
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_ratlings-ulbqsnxhjb-jmv6tjlrsi.pdf|10.07 MB"
+    },
+    {
+      "id": "raveners",
+      "title": "Raveners",
+      "slug": "raveners",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_kt_raveners_online_rules-essk6jkv2r-uoltqtiunq.pdf",
+      "fileName": "eng_17-12_kt_raveners_online_rules-essk6jkv2r-uoltqtiunq.pdf",
+      "fileSize": "16.35 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2025-06-25",
+      "createdAtLabel": "25/06/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_kt_raveners_online_rules-essk6jkv2r-uoltqtiunq.pdf|16.35 MB"
+    },
+    {
+      "id": "sanctifiers",
+      "title": "Sanctifiers",
+      "slug": "sanctifiers",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_25-02_kt_teamrules_sanctifiers-3vpsecfbfe-vclbyfaed7.pdf",
+      "fileName": "eng_25-02_kt_teamrules_sanctifiers-3vpsecfbfe-vclbyfaed7.pdf",
+      "fileSize": "4.07 MB",
+      "lastUpdated": "2026-02-25",
+      "lastUpdatedLabel": "25/02/2026",
+      "createdAt": "2025-04-02",
+      "createdAtLabel": "02/04/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "25/02/2026|eng_25-02_kt_teamrules_sanctifiers-3vpsecfbfe-vclbyfaed7.pdf|4.07 MB"
+    },
+    {
+      "id": "scout-squad",
+      "title": "Scout Squad",
+      "slug": "scout-squad",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_scout_squad-gsh9kmjzgi-cx2xtxmp8b.pdf",
+      "fileName": "eng_29-04_kt_teamrules_scout_squad-gsh9kmjzgi-cx2xtxmp8b.pdf",
+      "fileSize": "8.85 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_scout_squad-gsh9kmjzgi-cx2xtxmp8b.pdf|8.85 MB"
+    },
+    {
+      "id": "spectre-squad",
+      "title": "Spectre Squad",
+      "slug": "spectre-squad",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_spectre_squad_online_rules-fmam5py97r-crpssgvbua.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_spectre_squad_online_rules-fmam5py97r-crpssgvbua.pdf",
+      "fileSize": "8.54 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2026-05-06",
+      "createdAtLabel": "06/05/2026",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_spectre_squad_online_rules-fmam5py97r-crpssgvbua.pdf|8.54 MB"
+    },
+    {
+      "id": "tempestus-aquilons",
+      "title": "Tempestus Aquilons",
+      "slug": "tempestus-aquilons",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_tempestus_aquilons_online_rules-hjdu56qvok-yku0cuphaj.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_tempestus_aquilons_online_rules-hjdu56qvok-yku0cuphaj.pdf",
+      "fileSize": "11.26 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_tempestus_aquilons_online_rules-hjdu56qvok-yku0cuphaj.pdf|11.26 MB"
+    },
+    {
+      "id": "the-archivist-mission-pack",
+      "title": "The Archivist Mission Pack",
+      "slug": "the-archivist-mission-pack",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_the_archivist_mission_pack-izuueemzxv-hjug8aifii.pdf",
+      "fileName": "eng_the_archivist_mission_pack-izuueemzxv-hjug8aifii.pdf",
+      "fileSize": "7.66 MB",
+      "lastUpdated": "2026-05-06",
+      "lastUpdatedLabel": "06/05/2026",
+      "createdAt": "2026-05-06",
+      "createdAtLabel": "06/05/2026",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "06/05/2026|eng_the_archivist_mission_pack-izuueemzxv-hjug8aifii.pdf|7.66 MB"
+    },
+    {
+      "id": "hivestorm-mission",
+      "title": "The Great Gun Fires Mission Pack",
+      "slug": "hivestorm-mission",
+      "pdfUrl": "https://assets.warhammer-community.com/rules-downloads/kill-team/mission-packs/hivestorm-mission/killteam_missionpacks_hivestorm_eng_07.10.24.pdf",
+      "fileName": "rules-downloads/kill-team/mission-packs/hivestorm-mission/killteam_missionpacks_hivestorm_eng_07.10.24.pdf",
+      "fileSize": "2.45 MB",
+      "lastUpdated": "2024-10-07",
+      "lastUpdatedLabel": "07/10/2024",
+      "createdAt": "2024-10-07",
+      "createdAtLabel": "07/10/2024",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "07/10/2024|rules-downloads/kill-team/mission-packs/hivestorm-mission/killteam_missionpacks_hivestorm_eng_07.10.24.pdf|2.45 MB"
+    },
+    {
+      "id": "tomb-world-mission-pack",
+      "title": "Tomb World Mission Pack",
+      "slug": "tomb-world-mission-pack",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_19-11_kt_mission_pack_tomb_world-nmh1irpi3k-61f8fzzxqa.pdf",
+      "fileName": "eng_19-11_kt_mission_pack_tomb_world-nmh1irpi3k-61f8fzzxqa.pdf",
+      "fileSize": "17.85 MB",
+      "lastUpdated": "2025-11-19",
+      "lastUpdatedLabel": "19/11/2025",
+      "createdAt": "2025-11-19",
+      "createdAtLabel": "19/11/2025",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "19/11/2025|eng_19-11_kt_mission_pack_tomb_world-nmh1irpi3k-61f8fzzxqa.pdf|17.85 MB"
+    },
+    {
+      "id": "typhon-mission-pack",
+      "title": "Typhon Mission Pack",
+      "slug": "typhon-mission-pack",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_aug25_kt_typhon_mission_pack-ydwnd50fsr-2twheuflko.pdf",
+      "fileName": "eng_aug25_kt_typhon_mission_pack-ydwnd50fsr-2twheuflko.pdf",
+      "fileSize": "16.84 MB",
+      "lastUpdated": "2025-08-27",
+      "lastUpdatedLabel": "27/08/2025",
+      "createdAt": "2025-08-27",
+      "createdAtLabel": "27/08/2025",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "27/08/2025|eng_aug25_kt_typhon_mission_pack-ydwnd50fsr-2twheuflko.pdf|16.84 MB"
+    },
+    {
+      "id": "universal-equipment",
+      "title": "Universal Equipment",
+      "slug": "universal-equipment",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_key_downloads_universal_equipment-prsd0j8pih-ikfmigl0za.pdf",
+      "fileName": "eng_17-06_kill_team_key_downloads_universal_equipment-prsd0j8pih-ikfmigl0za.pdf",
+      "fileSize": "2.54 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Key Downloads",
+          "slug": "key-downloads"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_key_downloads_universal_equipment-prsd0j8pih-ikfmigl0za.pdf|2.54 MB"
+    },
+    {
+      "id": "vespid-stingwings",
+      "title": "Vespid Stingwings",
+      "slug": "vespid-stingwings",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_vespid_stingwings_online_rules-ivlsu9qyii-6ecf1h69ml.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_vespid_stingwings_online_rules-ivlsu9qyii-6ecf1h69ml.pdf",
+      "fileSize": "11.35 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_vespid_stingwings_online_rules-ivlsu9qyii-6ecf1h69ml.pdf|11.35 MB"
+    },
+    {
+      "id": "void-dancer-troupe",
+      "title": "Void-Dancer Troupe",
+      "slug": "void-dancer-troupe",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_void-dancer_troupe_online_rules-ee8qymqvq4-w24lgiuhhz.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_void-dancer_troupe_online_rules-ee8qymqvq4-w24lgiuhhz.pdf",
+      "fileSize": "6.20 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_void-dancer_troupe_online_rules-ee8qymqvq4-w24lgiuhhz.pdf|6.20 MB"
+    },
+    {
+      "id": "volkus-compound-mission-pack",
+      "title": "Volkus Compound Mission Pack",
+      "slug": "volkus-compound-mission-pack",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_kt_volkus_compound_mission_pack-oai8j5hmhd-a6ugpgdgkj.pdf",
+      "fileName": "eng_kt_volkus_compound_mission_pack-oai8j5hmhd-a6ugpgdgkj.pdf",
+      "fileSize": "9.27 MB",
+      "lastUpdated": "2025-04-30",
+      "lastUpdatedLabel": "30/04/2025",
+      "createdAt": "2025-04-30",
+      "createdAtLabel": "30/04/2025",
+      "categories": [
+        {
+          "title": "Mission Packs",
+          "slug": "mission-packs"
+        }
+      ],
+      "topics": [],
+      "revision": "30/04/2025|eng_kt_volkus_compound_mission_pack-oai8j5hmhd-a6ugpgdgkj.pdf|9.27 MB"
+    },
+    {
+      "id": "warpcoven",
+      "title": "Warpcoven",
+      "slug": "warpcoven",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_warpcoven-dlvflmyfdc-tqfq81iy7v.pdf",
+      "fileName": "eng_29-04_kt_teamrules_warpcoven-dlvflmyfdc-tqfq81iy7v.pdf",
+      "fileSize": "10.54 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2024-11-20",
+      "createdAtLabel": "20/11/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_warpcoven-dlvflmyfdc-tqfq81iy7v.pdf|10.54 MB"
+    },
+    {
+      "id": "wolf-scouts",
+      "title": "Wolf Scouts",
+      "slug": "wolf-scouts",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_wolf_scout-98qutcyf0n-a3v14lxt0s.pdf",
+      "fileName": "eng_29-04_kt_teamrules_wolf_scout-98qutcyf0n-a3v14lxt0s.pdf",
+      "fileSize": "10.10 MB",
+      "lastUpdated": "2026-04-29",
+      "lastUpdatedLabel": "29/04/2026",
+      "createdAt": "2025-11-19",
+      "createdAtLabel": "19/11/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "29/04/2026|eng_29-04_kt_teamrules_wolf_scout-98qutcyf0n-a3v14lxt0s.pdf|10.10 MB"
+    },
+    {
+      "id": "wrecka-krew",
+      "title": "Wrecka Krew",
+      "slug": "wrecka-krew",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_wrecka_krew_online_rules-1o31d0dshf-1p2z1ugswl.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_wrecka_krew_online_rules-1o31d0dshf-1p2z1ugswl.pdf",
+      "fileSize": "9.18 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2024-12-18",
+      "createdAtLabel": "18/12/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        },
+        {
+          "title": "Orks",
+          "slug": "orks"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_wrecka_krew_online_rules-1o31d0dshf-1p2z1ugswl.pdf|9.18 MB"
+    },
+    {
+      "id": "wyrmblade",
+      "title": "Wyrmblade",
+      "slug": "wyrmblade",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-12_killteam_wyrmblade_online_rules-nzx8yswdj0-9lcmzodiqo.pdf",
+      "fileName": "eng_17-12_killteam_wyrmblade_online_rules-nzx8yswdj0-9lcmzodiqo.pdf",
+      "fileSize": "12.53 MB",
+      "lastUpdated": "2025-12-17",
+      "lastUpdatedLabel": "17/12/2025",
+      "createdAt": "2024-10-02",
+      "createdAtLabel": "02/10/2024",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/12/2025|eng_17-12_killteam_wyrmblade_online_rules-nzx8yswdj0-9lcmzodiqo.pdf|12.53 MB"
+    },
+    {
+      "id": "xv26-stealth-battlesuits",
+      "title": "XV26 Stealth Battlesuits",
+      "slug": "xv26-stealth-battlesuits",
+      "pdfUrl": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_xv26_stealth_battlesuits_online_rules-ee27yjjgg3-mpri6mnolp.pdf",
+      "fileName": "eng_17-06_kill_team_team_rules_xv26_stealth_battlesuits_online_rules-ee27yjjgg3-mpri6mnolp.pdf",
+      "fileSize": "9.23 MB",
+      "lastUpdated": "2026-06-17",
+      "lastUpdatedLabel": "17/06/2026",
+      "createdAt": "2025-11-19",
+      "createdAtLabel": "19/11/2025",
+      "categories": [
+        {
+          "title": "Team Rules",
+          "slug": "team-rules"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Downloads",
+          "slug": "downloads"
+        },
+        {
+          "title": "Kill Team",
+          "slug": "kill-team"
+        }
+      ],
+      "revision": "17/06/2026|eng_17-06_kill_team_team_rules_xv26_stealth_battlesuits_online_rules-ee27yjjgg3-mpri6mnolp.pdf|9.23 MB"
+    }
+  ]
+}

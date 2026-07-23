@@ -6,6 +6,8 @@
   --line: #d9e0e6;
   --line-strong: #b8c4ce;
   --mark: #f2d35f;
+  --teal: #0f766e;
+  --red: #be123c;
 
   font: 16px/1.45 system-ui, 'Segoe UI', Roboto, sans-serif;
   letter-spacing: 0;
@@ -23,6 +25,10 @@
 
 body {
   margin: 0;
+}
+
+#root {
+  min-height: 100svh;
 }
 
 h1 {

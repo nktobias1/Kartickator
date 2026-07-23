@@ -4,7 +4,19 @@ Mobile-friendly PWA shell for an offline-first Kill Team card browser.
 
 The app is designed to host only code and app assets. Official PDFs, extracted
 cards, rule text, and official artwork are not committed or hosted by this
-project; downloads and processing should happen locally on each user's device.
+project.
+
+## Workflow
+
+The deployed app loads a static manifest of official Kill Team team-rule PDF
+links. Open the official PDF for a team, save it on the device, then import it
+into Kartickator. The app cuts the PDF into local card images, categorizes them
+as faction rules, strategic ploys, firefight ploys, operatives, and equipment,
+and stores the generated cards in the browser's IndexedDB for offline use.
+
+The official Warhammer Community download API is read only by GitHub Actions
+when refreshing the manifest. The browser app stays static because official PDF
+asset responses cannot be read directly from GitHub Pages by `fetch` due to CORS.
 
 ## Development
 
