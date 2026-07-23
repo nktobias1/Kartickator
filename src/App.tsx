@@ -20,12 +20,12 @@ function App() {
   return (
     <main className="app-shell">
       <header className="app-header">
-        <div className="brand-lockup" aria-label="Killteamator">
+        <div className="brand-lockup" aria-label="Kartickator">
           <div className="brand-mark" aria-hidden="true">
             <ShieldCheck size={24} strokeWidth={2.2} />
           </div>
           <div>
-            <p className="eyebrow">Killteamator</p>
+            <p className="eyebrow">Kartickator</p>
             <h1>Kill Team cards</h1>
           </div>
         </div>

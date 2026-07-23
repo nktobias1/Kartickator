@@ -1,4 +1,4 @@
-# Killteamator
+# Kartickator
 
 Mobile-friendly PWA shell for an offline-first Kill Team card browser.
 
@@ -22,4 +22,4 @@ npm run build
 ## GitHub Pages
 
 Pushes to `main` deploy the static PWA bundle from `dist` through GitHub
-Actions. The Vite base path is configured for `/Killteamator/`.
+Actions. The Vite base path is configured for `/Kartickator/`.

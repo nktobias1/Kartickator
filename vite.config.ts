@@ -4,21 +4,21 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Killteamator/',
+  base: '/Kartickator/',
   plugins: [
     react(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       manifest: {
-        name: 'Killteamator',
-        short_name: 'Killteamator',
+        name: 'Kartickator',
+        short_name: 'Kartickator',
         description: 'Offline-first Kill Team card browser.',
         theme_color: '#f8fafc',
         background_color: '#f8fafc',
         display: 'standalone',
-        start_url: '/Killteamator/',
-        scope: '/Killteamator/',
+        start_url: '/Kartickator/',
+        scope: '/Kartickator/',
         icons: [
           {
             src: 'pwa-icon.svg',
