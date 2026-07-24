@@ -52,6 +52,7 @@ export type StoredTeam = {
   manifestGeneratedAt: string | null
   error: string | null
   manual: boolean
+  favorite?: boolean
 }
 
 export type StoredCard = {

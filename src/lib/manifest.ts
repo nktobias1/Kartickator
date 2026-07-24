@@ -57,5 +57,6 @@ function toStoredTeam(
     manifestGeneratedAt: manifest.generatedAt,
     error: current?.error ?? null,
     manual: false,
+    favorite: current?.favorite ?? false,
   }
 }

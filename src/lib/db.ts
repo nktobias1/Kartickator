@@ -29,9 +29,19 @@ export async function getCardsForTeam(teamId: string) {
 }
 
 export async function getTeams() {
-  return db.teams.orderBy('name').toArray()
+  const teams = await db.teams.toArray()
+  return teams.sort(compareTeams)
 }
 
 export async function putMeta(key: string, value: unknown) {
   await db.meta.put({ key, value, updatedAt: new Date().toISOString() })
+}
+
+function compareTeams(a: StoredTeam, b: StoredTeam) {
+  if (Boolean(a.favorite) !== Boolean(b.favorite)) {
+    return a.favorite ? -1 : 1
+  }
+
+  return a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }) ||
+    a.id.localeCompare(b.id)
 }

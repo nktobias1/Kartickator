@@ -17,6 +17,7 @@ export default defineConfig({
         theme_color: '#f8fafc',
         background_color: '#f8fafc',
         display: 'standalone',
+        orientation: 'portrait',
         start_url: '/Kartickator/',
         scope: '/Kartickator/',
         icons: [

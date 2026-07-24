@@ -50,6 +50,11 @@ type ProcessOptions = {
   onProgress: (progress: ProgressState) => void
 }
 
+type FixedLayout = 'landscape' | 'portrait'
+
+const CARD_LONG_TO_SHORT = 121 / 70
+const TEMPLATE_MARK_THRESHOLD = 12
+
 export async function processPdfCards(
   bytes: ArrayBuffer,
   { teamName, onProgress }: ProcessOptions,
@@ -84,12 +89,13 @@ export async function processPdfCards(
 
     const pageText = await page.getTextContent()
     const spans = extractTextSpans(pageText.items as TextItem[], viewport.transform)
-    if (!likelyCardPage(spans.map((span) => span.text).join(' '))) {
+    const fullText = spans.map((span) => span.text).join(' ')
+    if (!likelyCardPage(fullText)) {
       page.cleanup()
       continue
     }
 
-    const rects = detectCardRects(context, canvas.width, canvas.height)
+    const rects = detectCardRects(context, canvas.width, canvas.height, fullText)
 
     let pageCardIndex = 0
     for (const rect of rects) {
@@ -139,8 +145,16 @@ function documentCanvas(width: number, height: number) {
   return canvas
 }
 
-function detectCardRects(context: CanvasRenderingContext2D, width: number, height: number) {
+function detectCardRects(
+  context: CanvasRenderingContext2D,
+  width: number,
+  height: number,
+  pageText: string,
+) {
   const data = context.getImageData(0, 0, width, height).data
+  const fixedLayoutRects = detectFixedLayoutRects(data, width, height, pageText)
+  if (fixedLayoutRects.length > 0) return fixedLayoutRects
+
   const headerRects = detectHeaderBasedRects(data, width, height)
   if (headerRects.length > 0) return headerRects
 
@@ -185,6 +199,168 @@ function detectCardRects(context: CanvasRenderingContext2D, width: number, heigh
   }
 
   return rects.sort((a, b) => a.y - b.y || a.x - b.x)
+}
+
+function detectFixedLayoutRects(
+  data: Uint8ClampedArray,
+  width: number,
+  height: number,
+  pageText: string,
+) {
+  const textLayout = inferFixedLayoutFromText(pageText)
+  if (textLayout) return buildFixedLayoutRects(textLayout, width, height)
+
+  const landscapeScore = scoreFixedLayout(data, width, height, 'landscape')
+  const portraitScore = scoreFixedLayout(data, width, height, 'portrait')
+
+  if (
+    landscapeScore.hits >= 7 &&
+    landscapeScore.total > portraitScore.total * 1.4
+  ) {
+    return buildFixedLayoutRects('landscape', width, height)
+  }
+
+  if (
+    portraitScore.hits >= 3 &&
+    portraitScore.total > landscapeScore.total * 1.1
+  ) {
+    return buildFixedLayoutRects('portrait', width, height)
+  }
+
+  return []
+}
+
+function inferFixedLayoutFromText(pageText: string): FixedLayout | null {
+  const normalized = pageText.toLowerCase().replace(/\s+/g, ' ')
+
+  if (
+    normalized.includes('apl move save wounds') ||
+    normalized.includes('name atk hit')
+  ) {
+    return 'landscape'
+  }
+
+  if (
+    normalized.includes('faction rule') ||
+    normalized.includes('strategy ploy') ||
+    normalized.includes('strategic ploy') ||
+    normalized.includes('firefight ploy') ||
+    normalized.includes('faction equipment') ||
+    normalized.includes('marker/token guide') ||
+    normalized.includes('operative selected from') ||
+    normalized.includes('operatives selected from')
+  ) {
+    return 'portrait'
+  }
+
+  return null
+}
+
+function buildFixedLayoutRects(layout: FixedLayout, width: number, height: number) {
+  const shortSide = width / 3
+  const longSide = shortSide * CARD_LONG_TO_SHORT
+
+  if (layout === 'landscape') {
+    const x = (width - longSide) / 2
+    const top = (height - 4 * shortSide) / 2
+    return Array.from({ length: 4 }, (_, row) =>
+      clampRect({
+        x,
+        y: top + row * shortSide,
+        width: longSide,
+        height: shortSide,
+      }, width, height),
+    )
+  }
+
+  const left = width / 6
+  const top = (height - 2 * longSide) / 2
+  return [0, 1].flatMap((row) =>
+    [0, 1].map((column) =>
+      clampRect({
+        x: left + column * shortSide,
+        y: top + row * longSide,
+        width: shortSide,
+        height: longSide,
+      }, width, height),
+    ),
+  )
+}
+
+function scoreFixedLayout(
+  data: Uint8ClampedArray,
+  width: number,
+  height: number,
+  layout: FixedLayout,
+) {
+  const { xs, ys } = fixedLayoutLines(layout, width, height)
+  let hits = 0
+  let total = 0
+
+  for (const x of xs) {
+    for (const y of ys) {
+      const score = cropMarkScoreNear(data, width, height, x, y)
+      if (score >= TEMPLATE_MARK_THRESHOLD) hits += 1
+      total += score
+    }
+  }
+
+  return { hits, total }
+}
+
+function fixedLayoutLines(layout: FixedLayout, width: number, height: number) {
+  const shortSide = width / 3
+  const longSide = shortSide * CARD_LONG_TO_SHORT
+
+  if (layout === 'landscape') {
+    const left = (width - longSide) / 2
+    const top = (height - 4 * shortSide) / 2
+    return {
+      xs: [left, left + longSide],
+      ys: Array.from({ length: 5 }, (_, index) => top + index * shortSide),
+    }
+  }
+
+  const left = width / 6
+  const top = (height - 2 * longSide) / 2
+  return {
+    xs: [left, left + shortSide, left + 2 * shortSide],
+    ys: [top, top + longSide, top + 2 * longSide],
+  }
+}
+
+function cropMarkScoreNear(
+  data: Uint8ClampedArray,
+  width: number,
+  height: number,
+  x: number,
+  y: number,
+) {
+  let best = 0
+
+  for (let yy = Math.round(y) - 18; yy <= Math.round(y) + 18; yy += 2) {
+    for (let xx = Math.round(x) - 18; xx <= Math.round(x) + 18; xx += 2) {
+      if (xx < 10 || xx >= width - 10 || yy < 10 || yy >= height - 10) continue
+
+      const horizontal = countDarkPixels(data, width, height, xx - 10, yy, xx + 10, yy)
+      const vertical = countDarkPixels(data, width, height, xx, yy - 10, xx, yy + 10)
+      const density = countDarkBox(data, width, height, xx - 10, yy - 10, xx + 10, yy + 10)
+
+      if (horizontal >= 4 && vertical >= 4 && density <= 140) {
+        best = Math.max(best, horizontal + vertical)
+      }
+    }
+  }
+
+  return best
+}
+
+function clampRect(rect: Rect, width: number, height: number) {
+  const x = Math.max(0, rect.x)
+  const y = Math.max(0, rect.y)
+  const right = Math.min(width, rect.x + rect.width)
+  const bottom = Math.min(height, rect.y + rect.height)
+  return { x, y, width: right - x, height: bottom - y }
 }
 
 function detectHeaderBasedRects(data: Uint8ClampedArray, width: number, height: number) {
@@ -709,6 +885,7 @@ function shouldSkipCard(text: string) {
   const normalized = text.replace(/\s+/g, ' ').trim().toLowerCase()
   if (!normalized) return true
   if (normalized.includes('kill team archetype')) return true
+  if (normalized.includes('operative selected from')) return true
   if (normalized.includes('operatives selected from')) return true
   if (normalized.includes('operative with one option from each')) return true
   if (/^notes?:?\s*$/.test(normalized)) return true
@@ -728,8 +905,6 @@ function likelyCardPage(text: string) {
   const normalized = text.toLowerCase()
   if (
     normalized.includes('update log') ||
-    normalized.includes('designer') ||
-    normalized.includes('kill team selection') ||
     normalized.includes('previous erratas') ||
     normalized.includes('previous rules commentaries')
   ) {
@@ -755,6 +930,12 @@ function classifyCard(text: string, fallback: CardSection): CardSection {
   ) {
     return 'operatives'
   }
+  if (
+    normalized.includes('faction rule') ||
+    normalized.includes('marker/token guide')
+  ) {
+    return 'faction-rules'
+  }
   if (normalized.includes('firefight ploy')) return 'firefight-ploys'
   if (
     normalized.includes('strategy ploy') ||
@@ -767,20 +948,6 @@ function classifyCard(text: string, fallback: CardSection): CardSection {
     normalized.includes('equipment')
   ) {
     return 'equipment'
-  }
-  if (
-    normalized.includes('faction rule') ||
-    normalized.includes('marker/token guide')
-  ) {
-    return 'faction-rules'
-  }
-  if (
-    normalized.includes(' apl ') ||
-    normalized.includes('move') ||
-    normalized.includes('save') ||
-    normalized.includes('wounds')
-  ) {
-    return 'operatives'
   }
   return fallback
 }
