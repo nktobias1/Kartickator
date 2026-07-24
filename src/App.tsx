@@ -6,19 +6,19 @@ import {
   type CSSProperties,
   type MouseEvent as ReactMouseEvent,
   type PointerEvent as ReactPointerEvent,
+  type RefObject,
   type TouchEvent as ReactTouchEvent,
 } from 'react'
 import {
   AlertCircle,
   ArrowLeft,
-  ChevronLeft,
-  ChevronRight,
   CheckCircle2,
   Download,
   ExternalLink,
   FileUp,
   Info,
   Loader2,
+  MoreVertical,
   RefreshCw,
   Search,
   ShieldCheck,
@@ -86,6 +86,13 @@ function App() {
   const safeActiveCardIndex =
     activeCards.length > 0 ? Math.min(activeCardIndex, activeCards.length - 1) : 0
   const activeCard = activeCards[safeActiveCardIndex] ?? null
+  const operativeJumpItems = useMemo(
+    () =>
+      activeSection === 'operatives'
+        ? buildOperativeJumpItems(activeCards, safeActiveCardIndex)
+        : [],
+    [activeCards, activeSection, safeActiveCardIndex],
+  )
 
   useEffect(() => {
     const handleOnline = () => setOnline(navigator.onLine)
@@ -419,6 +426,8 @@ function App() {
                   onOpen={() => setOpenCard(activeCard)}
                   onPrevious={showPreviousCard}
                   onNext={showNextCard}
+                  jumpItems={operativeJumpItems}
+                  onJumpToCard={setActiveCardIndex}
                 />
               ) : (
                 <div className="empty-state">
@@ -674,6 +683,8 @@ function CardViewer({
   onOpen,
   onPrevious,
   onNext,
+  jumpItems,
+  onJumpToCard,
 }: {
   card: StoredCard
   sectionLabel: string
@@ -682,10 +693,24 @@ function CardViewer({
   onOpen: () => void
   onPrevious: () => void
   onNext: () => void
+  jumpItems: OperativeJumpItem[]
+  onJumpToCard: (index: number) => void
 }) {
   const swipeStartXRef = useRef<number | null>(null)
   const didSwipeRef = useRef(false)
-  const rotateCard = shouldRotateCard(card)
+  const stageRef = useRef<HTMLDivElement>(null)
+  const stageHeight = usePreviewStageHeight(
+    stageRef,
+    `${card.id}:${index}:${total}`,
+  )
+  const viewport = useViewportSize()
+  const rotateCard = shouldRotateCard(card, viewport)
+  const operativeMenuAvailable = jumpItems.length > 0
+  const [operativeMenuOpen, setOperativeMenuOpen] = useState(false)
+
+  useEffect(() => {
+    setOperativeMenuOpen(false)
+  }, [card.id, sectionLabel])
 
   function startSwipe(clientX: number) {
     swipeStartXRef.current = clientX
@@ -749,14 +774,21 @@ function CardViewer({
     if (!didSwipeRef.current) onOpen()
   }
 
+  function jumpToOperative(index: number) {
+    onJumpToCard(index)
+    setOperativeMenuOpen(false)
+  }
+
   return (
     <article
-      className="card-viewer"
+      className={`card-viewer${card.section === 'operatives' ? ' operative-viewer' : ''}`}
       aria-label={`${sectionLabel}, card ${index + 1} of ${total}: ${card.title}`}
       aria-live="polite"
     >
       <div
+        ref={stageRef}
         className="card-stage"
+        style={stageHeight ? { height: `${stageHeight}px` } : undefined}
         onPointerDown={handlePointerDown}
         onPointerUp={handlePointerUp}
         onPointerCancel={cancelSwipe}
@@ -766,18 +798,43 @@ function CardViewer({
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
         onTouchCancel={cancelSwipe}
+        onKeyDown={(event) => {
+          if (event.key === 'Escape') setOperativeMenuOpen(false)
+        }}
         onDragStart={(event) => event.preventDefault()}
       >
-        <button
-          type="button"
-          className="card-nav-button previous"
-          onClick={onPrevious}
-          disabled={total <= 1}
-          aria-label="Previous card"
-          title="Previous card"
-        >
-          <ChevronLeft size={22} aria-hidden="true" />
-        </button>
+        {operativeMenuAvailable && (
+          <div className="operative-menu">
+            <button
+              type="button"
+              className="operative-menu-button"
+              onClick={() => setOperativeMenuOpen((open) => !open)}
+              aria-label="Choose operative"
+              aria-expanded={operativeMenuOpen}
+              aria-haspopup="menu"
+              title="Operatives"
+            >
+              <MoreVertical size={18} aria-hidden="true" />
+            </button>
+
+            {operativeMenuOpen && (
+              <div className="operative-jump-menu" role="menu">
+                {jumpItems.map((item) => (
+                  <button
+                    type="button"
+                    role="menuitem"
+                    key={item.key}
+                    className={item.active ? 'active' : ''}
+                    onClick={() => jumpToOperative(item.index)}
+                  >
+                    <span>{item.title}</span>
+                    {item.count > 1 && <strong>{item.count}</strong>}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
 
         <button
           type="button"
@@ -785,19 +842,19 @@ function CardViewer({
           onClick={handleOpen}
           aria-label={`Open ${card.title}`}
         >
-          <CardImageShell card={card} rotate={rotateCard} />
+          <CardImageShell
+            card={card}
+            rotate={rotateCard}
+            availableHeight={stageHeight ?? undefined}
+          />
         </button>
 
-        <button
-          type="button"
-          className="card-nav-button next"
-          onClick={onNext}
-          disabled={total <= 1}
-          aria-label="Next card"
-          title="Next card"
+        <output
+          className="card-progress"
+          aria-label={`Card ${index + 1} of ${total}`}
         >
-          <ChevronRight size={22} aria-hidden="true" />
-        </button>
+          {index + 1}/{total}
+        </output>
       </div>
     </article>
   )
@@ -824,14 +881,22 @@ function CardImage({
 function CardImageShell({
   card,
   rotate,
+  availableHeight,
   modal = false,
 }: {
   card: StoredCard
   rotate: boolean
+  availableHeight?: number
   modal?: boolean
 }) {
   const viewport = useViewportSize()
-  const styles = rotatedCardImageStyles(card, rotate, viewport, modal)
+  const styles = rotatedCardImageStyles(
+    card,
+    rotate,
+    viewport,
+    modal,
+    availableHeight,
+  )
 
   return (
     <span
@@ -863,7 +928,8 @@ function AboutModal({ onClose }: { onClose: () => void }) {
 }
 
 function CardModal({ card, onClose }: { card: StoredCard; onClose: () => void }) {
-  const rotateCard = shouldRotateCard(card)
+  const viewport = useViewportSize()
+  const rotateCard = shouldRotateCard(card, viewport)
 
   return (
     <div className="modal-backdrop" role="dialog" aria-modal="true">
@@ -924,8 +990,46 @@ function sectionShortLabel(label: string) {
   return label.slice(0, 2)
 }
 
-function shouldRotateCard(card: StoredCard) {
-  return card.section === 'operatives' && card.width > card.height
+type OperativeJumpItem = {
+  key: string
+  title: string
+  index: number
+  count: number
+  active: boolean
+}
+
+function buildOperativeJumpItems(cards: StoredCard[], activeIndex: number) {
+  const activeCard = cards[activeIndex]
+  const items = new Map<string, OperativeJumpItem>()
+
+  cards.forEach((card, index) => {
+    const existing = items.get(card.groupKey)
+    if (existing) {
+      existing.count += 1
+      return
+    }
+
+    items.set(card.groupKey, {
+      key: card.groupKey,
+      title: card.groupTitle,
+      index,
+      count: 1,
+      active: card.groupKey === activeCard?.groupKey,
+    })
+  })
+
+  return [...items.values()]
+}
+
+function shouldRotateCard(
+  card: StoredCard,
+  viewport: { width: number; height: number },
+) {
+  return (
+    card.section === 'operatives' &&
+    card.width > card.height &&
+    viewport.height >= viewport.width
+  )
 }
 
 function useViewportSize() {
@@ -944,6 +1048,56 @@ function useViewportSize() {
   return viewport
 }
 
+function usePreviewStageHeight(
+  stageRef: RefObject<HTMLDivElement | null>,
+  measureKey: string,
+) {
+  const [height, setHeight] = useState<number | null>(null)
+
+  useEffect(() => {
+    let animationFrame = 0
+
+    function measure() {
+      animationFrame = 0
+      const stage = stageRef.current
+      if (!stage) return
+
+      const viewportHeight = window.visualViewport?.height ?? window.innerHeight
+      const stageTop = stage.getBoundingClientRect().top
+      const switcherTop =
+        document.querySelector('.section-switcher')?.getBoundingClientRect().top ??
+        viewportHeight
+      const nextHeight = Math.max(160, Math.floor(switcherTop - stageTop - 8))
+
+      setHeight((currentHeight) =>
+        currentHeight === null || Math.abs(currentHeight - nextHeight) > 1
+          ? nextHeight
+          : currentHeight,
+      )
+    }
+
+    function scheduleMeasure() {
+      if (animationFrame === 0) {
+        animationFrame = window.requestAnimationFrame(measure)
+      }
+    }
+
+    scheduleMeasure()
+    window.addEventListener('resize', scheduleMeasure)
+    window.visualViewport?.addEventListener('resize', scheduleMeasure)
+
+    return () => {
+      window.removeEventListener('resize', scheduleMeasure)
+      window.visualViewport?.removeEventListener('resize', scheduleMeasure)
+      if (animationFrame !== 0) {
+        window.cancelAnimationFrame(animationFrame)
+      }
+    }
+  }, [measureKey, stageRef])
+
+  return height
+}
+
 function currentViewportSize() {
   return {
     width: window.visualViewport?.width ?? window.innerWidth,
@@ -956,21 +1110,28 @@ function rotatedCardImageStyles(
   rotateCard: boolean,
   viewport: { width: number; height: number },
   modal = false,
+  availableHeight?: number,
 ): { shell?: CSSProperties; image?: CSSProperties } {
-  if (!rotateCard) return {}
-
-  const horizontalReserve = modal ? 24 : viewport.width <= 560 ? 58 : 96
-  const verticalReserve = modal ? 92 : viewport.width <= 560 ? 170 : 180
+  const horizontalReserve = modal ? 24 : viewport.width <= 560 ? 34 : 42
+  const verticalReserve = modal ? 92 : viewport.width <= 560 ? 162 : 166
   const maxVisualWidth = Math.max(180, viewport.width - horizontalReserve)
-  const maxVisualHeight = Math.max(260, viewport.height - verticalReserve)
-  const scale = Math.min(maxVisualWidth / card.height, maxVisualHeight / card.width)
+  const minimumVisualHeight = modal || viewport.height > 560 ? 260 : 120
+  const maxVisualHeight = Math.max(
+    minimumVisualHeight,
+    (availableHeight ?? viewport.height - verticalReserve) - (modal ? 0 : 16),
+  )
+  const visualWidth = rotateCard ? card.height : card.width
+  const visualHeight = rotateCard ? card.width : card.height
+  const scale = Math.min(maxVisualWidth / visualWidth, maxVisualHeight / visualHeight)
   const imageWidth = Math.floor(card.width * scale)
   const imageHeight = Math.floor(card.height * scale)
+  const shellWidth = Math.floor(visualWidth * scale)
+  const shellHeight = Math.floor(visualHeight * scale)
 
   return {
     shell: {
-      width: `${imageHeight}px`,
-      height: `${imageWidth}px`,
+      width: `${shellWidth}px`,
+      height: `${shellHeight}px`,
     },
     image: {
       width: `${imageWidth}px`,

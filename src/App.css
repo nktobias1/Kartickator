@@ -326,7 +326,8 @@ button:disabled {
   position: relative;
   display: grid;
   place-items: center;
-  min-height: min(760px, calc(100svh - 160px));
+  height: min(760px, calc(100svh - 146px));
+  min-height: 0;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.62);
@@ -337,8 +338,9 @@ button:disabled {
 .card-frame {
   width: 100%;
   min-width: 0;
-  min-height: min(760px, calc(100svh - 160px));
-  padding: 10px 46px;
+  height: 100%;
+  min-height: 0;
+  padding: 8px 14px;
   border: 0;
   background: transparent;
   display: grid;
@@ -347,7 +349,7 @@ button:disabled {
 
 .card-frame img {
   max-width: 100%;
-  max-height: min(740px, calc(100svh - 180px));
+  max-height: 100%;
   object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 16px 42px rgba(15, 23, 42, 0.18);
@@ -359,7 +361,12 @@ button:disabled {
   display: grid;
   place-items: center;
   max-width: 100%;
-  max-height: min(740px, calc(100svh - 180px));
+  max-height: 100%;
+}
+
+.card-image-shell:not(.rotated) {
+  width: 100%;
+  height: 100%;
 }
 
 .card-image-shell.rotated {
@@ -370,7 +377,7 @@ button:disabled {
 }
 
 .card-frame.rotated {
-  padding: 8px 22px;
+  padding: 8px 14px;
 }
 
 .card-image-shell.rotated img {
@@ -383,29 +390,98 @@ button:disabled {
   transform-origin: center;
 }
 
-.card-nav-button {
+.card-progress {
   position: absolute;
-  top: 50%;
-  z-index: 2;
-  width: 38px;
-  min-height: 48px;
+  right: 8px;
+  top: 8px;
+  z-index: 3;
+  min-width: 42px;
+  min-height: 28px;
+  padding: 0 8px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  background: rgba(248, 250, 252, 0.88);
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
+}
+
+.operative-menu {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  z-index: 4;
+}
+
+.operative-menu-button {
+  width: 34px;
+  min-height: 28px;
   padding: 0;
-  border-radius: 8px;
+  border-radius: 999px;
   border: 1px solid var(--line-strong);
   background: rgba(248, 250, 252, 0.88);
   color: var(--ink);
   display: grid;
   place-items: center;
-  transform: translateY(-50%);
   box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
 }
 
-.card-nav-button.previous {
-  left: 8px;
+.operative-jump-menu {
+  position: absolute;
+  left: 0;
+  top: 34px;
+  width: min(270px, calc(100vw - 32px));
+  max-height: min(380px, calc(100svh - 190px));
+  padding: 6px;
+  border-radius: 8px;
+  border: 1px solid var(--line-strong);
+  background: rgba(248, 250, 252, 0.96);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 18px 42px rgba(15, 23, 42, 0.2);
+  overflow: auto;
 }
 
-.card-nav-button.next {
-  right: 8px;
+.operative-jump-menu button {
+  width: 100%;
+  min-height: 36px;
+  padding: 0 8px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  font: inherit;
+  text-align: left;
+}
+
+.operative-jump-menu button.active {
+  background: rgba(15, 118, 110, 0.12);
+  color: var(--teal);
+}
+
+.operative-jump-menu span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.operative-jump-menu strong {
+  min-width: 22px;
+  min-height: 22px;
+  border-radius: 999px;
+  background: rgba(100, 113, 124, 0.14);
+  color: currentColor;
+  display: grid;
+  place-items: center;
+  font-size: 12px;
 }
 
 .section-switcher {
@@ -530,6 +606,33 @@ button:disabled {
 
 }
 
+@media (orientation: landscape) and (max-height: 560px) {
+  .card-viewer.operative-viewer .card-stage {
+    height: calc(100svh - 116px);
+  }
+
+  .card-viewer.operative-viewer .card-frame {
+    padding: 6px 8px;
+  }
+
+  .card-viewer.operative-viewer .card-progress,
+  .card-viewer.operative-viewer .operative-menu {
+    top: 6px;
+  }
+
+  .card-viewer.operative-viewer .card-progress {
+    right: 6px;
+  }
+
+  .card-viewer.operative-viewer .operative-menu {
+    left: 6px;
+  }
+
+  .card-viewer.operative-viewer .operative-jump-menu {
+    max-height: calc(100svh - 128px);
+  }
+}
+
 .about-backdrop {
   grid-template-rows: auto;
   place-items: center;
@@ -572,25 +675,27 @@ button:disabled {
     padding-inline: 10px;
   }
 
-  .card-stage,
-  .card-frame {
-    min-height: min(680px, calc(100svh - 150px));
+  .card-stage {
+    height: calc(100svh - 142px);
+    min-height: 0;
   }
 
   .card-frame {
-    padding: 8px 40px;
+    height: 100%;
+    min-height: 0;
+    padding: 8px 12px;
   }
 
   .card-frame img {
-    max-height: min(660px, calc(100svh - 170px));
+    max-height: 100%;
   }
 
   .card-frame.rotated {
-    padding: 8px 18px;
+    padding: 8px 12px;
   }
 
   .card-image-shell {
-    max-height: min(660px, calc(100svh - 170px));
+    max-height: 100%;
   }
 
   .card-image-shell.rotated img {
@@ -598,8 +703,8 @@ button:disabled {
     max-height: none;
   }
 
-  .card-nav-button {
-    width: 34px;
-    min-height: 44px;
+  .card-progress {
+    right: 7px;
+    top: 7px;
   }
 }
